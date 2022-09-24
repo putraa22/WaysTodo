@@ -1,4 +1,4 @@
-import { Text, Button, Image, View, Center, Container, Box, Spacer } from "native-base";
+import { Text, Button, Image, Center, Container, Box } from "native-base";
 
 //! COMPONENTS VARIABLE
 import TodoImg from "../../assets/WaysTodo.png";
