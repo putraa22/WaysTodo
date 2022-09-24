@@ -7,7 +7,7 @@ const FrontPageImg = require("../../assets/frontImage.png");
 //! FRONTPAGE FUNCTION
 function Home({ navigation }) {
   return (
-    <Center space={3} width="100%">
+    <Center width="100%">
       <Container alignItems="center">
         <Box marginTop="3rem">
           <Image source={FrontPageImg} w="228" h="258" />
