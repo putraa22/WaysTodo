@@ -1,15 +1,15 @@
 import React from "react";
 import Container from "./Container";
 import { NativeBaseProvider } from "native-base";
-import { NavigationContainer } from "@react-navigation/native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 //! EXPORT PLACE
 export default function App() {
   return (
-    <NavigationContainer>
+    <SafeAreaProvider>
       <NativeBaseProvider>
         <Container />
       </NativeBaseProvider>
-    </NavigationContainer>
+    </SafeAreaProvider>
   );
 }

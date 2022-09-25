@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import React from "react";
-import { VStack, Text, View, FormControl, Input, Button, ScrollView, HStack, Box, CheckIcon, Select, TextArea } from "native-base";
+import { VStack, Text, FormControl, Input, Button, CheckIcon, Select, TextArea } from "native-base";
 
 const AddList = () => {
   const [service, setService] = React.useState("");

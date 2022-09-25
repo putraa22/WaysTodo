@@ -4,7 +4,7 @@ import { View, Text, Box, Center, HStack, Pressable, Icon } from "native-base";
 
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import Category from "../screen/Category";
+// import Category from "../screen/Category";
 // import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 // import { StackParamList } from "../routes/Routes";
 
@@ -61,7 +61,7 @@ const Footer = ({ navigation }) => {
             flex={1}
             onPress={() => {
               setSelected(2);
-              navigation.navigate("Category");
+              navigation.navigate("HomePage");
             }}
           >
             <Center>

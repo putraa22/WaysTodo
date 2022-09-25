@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
-import { Box, HStack, VStack, Text, Button, Pressable } from "native-base";
+import { Box, HStack, VStack, Text, Pressable } from "native-base";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
