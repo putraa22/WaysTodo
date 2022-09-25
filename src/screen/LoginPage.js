@@ -21,7 +21,7 @@ function Login({ navigation }) {
         </Stack>
 
         <View marginBottom="1rem">
-          <Button backgroundColor="danger.500" marginTop="4">
+          <Button backgroundColor="danger.500" marginTop="4" onPress={() => navigation.navigate("HomePage")}>
             <Text color="muted.50" fontSize="17" fontWeight="bold">
               Login
             </Text>
