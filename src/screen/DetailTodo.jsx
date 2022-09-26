@@ -4,12 +4,6 @@ import { Box, HStack, VStack, Text, View, ScrollView } from "native-base";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import Footer from "../components/Footer";
-// import { NativeStackNavigationProp } from "@react-navigation/native-stack";
-// import { StackParamList } from "../routes/Routes";
-
-// interface Props {
-//   navigation: NativeStackNavigationProp<StackParamList, "Dashboard">;
-// }
 
 const DetailTodo = ({ navigation }) => {
   return (

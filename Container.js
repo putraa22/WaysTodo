@@ -5,6 +5,7 @@ import Home from "./src/screen/MainPage";
 import HomePage from "./src/screen/HomePage";
 import DetailTodo from "./src/screen/DetailTodo";
 import Category from "./src/screen/Category";
+import AddList from "./src/screen/AddList";
 import { NavigationContainer } from "@react-navigation/native";
 // import HomePage from "./screen/HomePage"
 
@@ -26,6 +27,7 @@ function Container() {
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="DetailTodo" component={DetailTodo} />
         <Stack.Screen name="Category" component={Category} />
+        <Stack.Screen name="AddList" component={AddList} />
         {/* <Stack.Screen name="TodoApp" component={HomePage} /> */}
       </Stack.Navigator>
     </NavigationContainer>

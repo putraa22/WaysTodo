@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
-import { ScrollView, VStack, Text, Box, Flex, HStack, Avatar, Input, Icon, Select, CheckIcon, InfoIcon } from "native-base";
+import { ScrollView, VStack, Text, Box, HStack, Avatar, Input, Icon, Select, CheckIcon } from "native-base";
 import { AntDesign } from "@expo/vector-icons";
 import Footer from "../components/Footer";
 import { MaterialIcons } from "@expo/vector-icons";

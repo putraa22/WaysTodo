@@ -27,20 +27,20 @@ function MyTabs() {
         component={HomePage}
       />
       <Tab.Screen
-        name="AddList"
-        options={{
-          tabBarLabel: "Add List",
-          tabBarIcon: ({ color, size }) => <Ionicons name="add-circle-sharp" color={color} size={size} />,
-        }}
-        component={AddList}
-      />
-      <Tab.Screen
         name="Category"
         options={{
           tabBarLabel: "Add Category",
-          tabBarIcon: ({ color, size }) => <Ionicons name="duplicate" color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <Ionicons name="add-circle-sharp" color={color} size={size} />,
         }}
         component={Category}
+      />
+      <Tab.Screen
+        name="AddList"
+        options={{
+          tabBarLabel: "Add List",
+          tabBarIcon: ({ color, size }) => <Ionicons name="duplicate" color={color} size={size} />,
+        }}
+        component={AddList}
       />
     </Tab.Navigator>
   );
