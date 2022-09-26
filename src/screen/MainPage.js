@@ -1,4 +1,4 @@
-import { Text, Button, Image, Center, Container, Box } from "native-base";
+import { Text, Button, Image, Center, Container, Box, View } from "native-base";
 
 //! COMPONENTS VARIABLE
 import TodoImg from "../../assets/WaysTodo.png";
@@ -18,7 +18,7 @@ function Home({ navigation }) {
           Write your activity and finish your activity. Fast, Simple and Easy to Use
         </Text>
       </Container>
-      <Container mt="3rem" alignItems="center">
+      <View mt="4rem" alignItems="center">
         <Button width={80} marginBottom="1rem" alignItems="center" bg="danger.500" rounded="md" shadow={3} onPress={() => navigation.navigate("Register")}>
           <Text color="white" fontWeight="bold" fontSize="20">
             Register
@@ -29,7 +29,7 @@ function Home({ navigation }) {
             Login
           </Text>
         </Button>
-      </Container>
+      </View>
     </Center>
   );
 }

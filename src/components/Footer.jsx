@@ -60,7 +60,7 @@ const Footer = ({ navigation }) => {
             flex={1}
             onPress={() => {
               setSelected(2);
-              navigation.navigate("HomePage");
+              navigation.navigate("AddList");
             }}
           >
             <Center>

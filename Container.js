@@ -8,6 +8,7 @@ import Category from "./src/screen/Category";
 import AddList from "./src/screen/AddList";
 import { NavigationContainer } from "@react-navigation/native";
 // import HomePage from "./screen/HomePage"
+import ButtonTab from "./src/components/ButtonTab";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,19 +17,16 @@ function Container() {
     <NavigationContainer>
       <Stack.Navigator alignItems="center">
         <Stack.Screen
-          name="Home"
-          component={Home}
+          name="Main"
+          component={ButtonTab}
           options={{
             headerShown: false,
           }}
         />
-        <Stack.Screen name="HomePage" component={HomePage} />
+
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="DetailTodo" component={DetailTodo} />
-        <Stack.Screen name="Category" component={Category} />
-        <Stack.Screen name="AddList" component={AddList} />
-        {/* <Stack.Screen name="TodoApp" component={HomePage} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

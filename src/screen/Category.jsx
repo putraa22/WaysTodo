@@ -41,7 +41,7 @@ const AddCategoryScreen = () => {
           </HStack>
         </VStack>
       </ScrollView>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

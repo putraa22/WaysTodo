@@ -104,7 +104,7 @@ const Dashboard = ({ navigation }) => {
           <CardDashboard navigation={navigation} />
         </VStack>
       </ScrollView>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
