@@ -10,8 +10,10 @@ import { NavigationContainer } from "@react-navigation/native";
 // import HomePage from "./screen/HomePage"
 import ButtonTab from "./src/components/ButtonTab";
 import MainPage from "./src/screen/MainPage";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 const Stack = createNativeStackNavigator();
+const Tab = createBottomTabNavigator();
 
 function Container() {
   return (
@@ -29,7 +31,7 @@ function Container() {
 
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
-        <Stack.Screen name="DetailTodo" component={DetailTodo} />
+        <Tab.Screen name="DetailTodo" component={DetailTodo} />
       </Stack.Navigator>
     </NavigationContainer>
   );

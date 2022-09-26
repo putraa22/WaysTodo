@@ -5,9 +5,10 @@ import { Ionicons } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import Footer from "../components/Footer";
 import axios from "axios";
+import dateFormat from "dateformat";
 import { useEffect } from "react";
 
-const DetailTodo = ({ navigation }) => {
+const DetailTodo = ({ navigation, route }) => {
   const [date, setDate] = useState(new Date());
   const [todo, setTodo] = useState();
 
@@ -26,7 +27,7 @@ const DetailTodo = ({ navigation }) => {
 
   useEffect(() => {
     getTodo();
-  });
+  }, []);
 
   return (
     <>
@@ -63,7 +64,7 @@ const DetailTodo = ({ navigation }) => {
           <VStack space={1} py="3"></VStack>
         </Box>
       </ScrollView>
-      <Footer navigation={navigation} />
+      {/* <Footer navigation={navigation} /> */}
     </>
   );
 };

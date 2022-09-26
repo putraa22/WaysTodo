@@ -7,7 +7,7 @@ import axios from "axios";
 import { useState } from "react";
 
 const AddList = () => {
-  // const [service, setService] = React.useState("");
+  const [service, setService] = useState("");
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [category, setCategory] = useState();
@@ -55,7 +55,7 @@ const AddList = () => {
               }}
             />
             <Select
-              // selectedValue={service}
+              selectedValue={service}
               minWidth="200"
               accessibilityLabel="Category"
               placeholder="Category"
